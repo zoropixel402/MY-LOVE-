@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>MY LOVE 💗</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    min-height: 100dvh;
+    padding: 25px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, serif;
+    background:
+        radial-gradient(circle at top left, #fff7fb, transparent 45%),
+        linear-gradient(135deg, #ffd9e8, #ffb7d0, #ffeaf2);
+    color: #a72c59;
+    overflow-x: hidden;
+}
+
+.contenedor {
+    width: 100%;
+    max-width: 900px;
+    padding: clamp(22px, 5vw, 55px);
+    text-align: center;
+    background: rgba(255, 255, 255, 0.78);
+    border: 2px solid #ff8fb5;
+    border-radius: clamp(20px, 4vw, 38px);
+    box-shadow: 0 15px 50px rgba(205, 57, 111, 0.22);
+    position: relative;
+    overflow: hidden;
+}
+
+.decoracion {
+    color: #f05c91;
+    font-size: clamp(18px, 3vw, 27px);
+    letter-spacing: 10px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: clamp(42px, 9vw, 90px);
+    letter-spacing: clamp(3px, 1.5vw, 12px);
+    color: #e84378;
+    text-shadow:
+        3px 3px 0 #ffd0e0,
+        0 0 25px #ffb2cc;
+    overflow-wrap: anywhere;
+}
+
+.subtitulo {
+    margin: 15px auto 25px;
+    font-size: clamp(14px, 2.5vw, 21px);
+    line-height: 1.7;
+    font-style: italic;
+}
+
+.linea {
+    width: min(80%, 450px);
+    height: 2px;
+    margin: 0 auto 28px;
+    background: linear-gradient(
+        to right,
+        transparent,
+        #f05c91,
+        transparent
+    );
+}
+
+/* IMAGEN ORIGINAL: 1080 X 1438 PIXELES */
+.marco-imagen {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto 28px;
+    padding: 8px;
+    border: 2px solid #f58bb0;
+    border-radius: 24px;
+    background: #fff1f7;
+    box-shadow: 0 8px 25px rgba(231, 91, 143, 0.2);
+    overflow: hidden;
+}
+
+.marco-imagen img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1080 / 1438;
+    object-fit: contain;
+    border-radius: 16px;
+}
+
+/* MENSAJE */
+.mensaje {
+    max-width: 650px;
+    margin: 0 auto;
+    font-size: clamp(15px, 2.3vw, 21px);
+    line-height: 1.9;
+}
+
+.corazon {
+    color: #f0447c;
+    font-size: clamp(30px, 5vw, 45px);
+    margin: 15px 0;
+    animation: latido 1.3s infinite;
+}
+
+.final {
+    margin-top: 28px;
+    font-size: clamp(12px, 2vw, 16px);
+    letter-spacing: clamp(2px, 1vw, 5px);
+    color: #d6336c;
+}
+
+.brillos {
+    margin-top: 22px;
+    color: #ed6695;
+    font-size: 23px;
+}
+
+/* ANIMACION DEL CORAZON */
+@keyframes latido {
+    0%, 100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.15);
+    }
+}
+
+/* AJUSTES PARA CELULARES */
+@media (max-width: 480px) {
+    body {
+        padding: 12px;
+    }
+
+    .contenedor {
+        padding: 26px 17px;
+        border-radius: 23px;
+    }
+
+    .marco-imagen {
+        padding: 5px;
+        border-radius: 17px;
+    }
+
+    .marco-imagen img {
+        border-radius: 12px;
+    }
+
+    .subtitulo {
+        margin-bottom: 20px;
+    }
+}
+
+/* AJUSTES PARA PANTALLAS GRANDES */
+@media (min-width: 1000px) {
+    .contenedor {
+        max-width: 950px;
+    }
+
+    .marco-imagen {
+        max-width: 600px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<main class="contenedor">
+
+    <div class="decoracion">♡ ✧ ♡ ✧ ♡</div>
+
+    <h1>MY LOVE</h1>
+
+    <p class="subtitulo">
+        Un pequeño lugar para alguien muy especial 💕
+    </p>
+
+    <div class="linea"></div>
+
+    <!-- TU IMAGEN: MY GIRL -->
+    <div class="marco-imagen">
+        <img
+            src="MY GIRL.jpg"
+            alt="Nuestra foto especial"
+            width="1080"
+            height="1438"
+        >
+    </div>
+
+    <div class="corazon">♥</div>
+
+    <p class="mensaje">
+        "Cerca o lejos, solo tu tienes mi corazón, mis sentimientos y todo mi amor.💗"
+
+        <br><br>
+        Este pequeño espacio está dedicado a alguien que ocupa
+        un lugar muy especial en mi corazón. 💗
+    </p>
+
+    <div class="brillos">✧ ⋆｡˚ ♡ ˚｡⋆ ✧</div>
+
+    <p class="final">MADE WITH LOVE ♡</p>
+
+</main>
+
+</body>
+</html>
